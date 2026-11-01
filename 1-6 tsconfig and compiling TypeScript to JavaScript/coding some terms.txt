@@ -1,0 +1,24 @@
+explicit - nirdishto kore ver,function ke assign kore bole deoa
+Implicit - se nije thakay sob kisu korte pare [ver,function]
+
+
+some confi change
+
+    "strict": true,
+    // "jsx": "react-jsx",
+    // "verbatimModuleSyntax": true,
+    // "isolatedModules": true,
+    // "noUncheckedSideEffectImports": true,
+    // "moduleDetection": "force",
+    "skipLibCheck": true,
+
+      // Other Outputs
+    // "sourceMap": true,
+    // "declaration": true,
+    // "declarationMap": true,
+
+    // Stricter Typechecking Options
+    // "noUncheckedIndexedAccess": true,
+    // "exactOptionalPropertyTypes": true,
+
+    playtime = 3:44
