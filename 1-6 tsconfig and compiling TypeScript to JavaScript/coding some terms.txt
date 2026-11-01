@@ -20,5 +20,3 @@ some confi change
     // Stricter Typechecking Options
     // "noUncheckedIndexedAccess": true,
     // "exactOptionalPropertyTypes": true,
-
-    playtime = 3:44
