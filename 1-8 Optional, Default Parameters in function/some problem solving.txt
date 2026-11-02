@@ -1,0 +1,2 @@
+
+arr : string[] =ata TS holo string type arr er moddhe string chara onno kono data-type allowed na
