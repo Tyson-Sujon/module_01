@@ -47,3 +47,24 @@ console.log(greeting+" "+fullName);
 
 }
 greetings('mir');
+
+
+
+// Rest Parameter in function
+
+// 'Array Parameter' holo sum([10, 20, 30]) → Array পাঠাচ্ছ।
+// 'Rest Parameter' holo sum(10, 20, 30) → Argument পাঠাচ্ছ, Function Array বানাচ্ছে।
+
+
+
+const sum = (...numbers: number[]) => {
+    return numbers.reduce((total, sum)=> total + sum , 0);
+}
+console.log('final sum',sum(2,3,));
+
+
+const logUserAction = ( ...args: [ name:string,age:number,isActive: boolean ] ) => {
+    const[name,age] = args;
+    console.log(name + "is" +age);
+}
+logUserAction("Mir", 192, false);
